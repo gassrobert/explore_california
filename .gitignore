@@ -1,0 +1,15 @@
+# Comment 
+tempfile.txt
+.DS_Store
+*.zip
+*.gz
+log/*.log
+log/*.log.[0-9]
+assets/photoshop/
+assets/videos/
+!assets/videos/tour_*.mp4
+
+# question: would log/archive/access.log be ignored?
+# No, it wouldn't be ignored
+# * only applies to characters that would be part of the
+# file name.
